@@ -5,10 +5,12 @@ The Interrupting Snake is an AI-based snake game in python using pygame module. 
 The computer snake is programmend according to the algorithm of finding the closest point (x,y) from a set of points in a 2-D space.
 The algorithm maintains the Player snake's coordinates in a list and finds the closest point in it to the coordinates of the computer snake's head.
 
-## converting the program to an executable
-   Locate the file setup.py from the repository and run the following command on the command prompt -
- 
-   build setup.py
+## Converting the program to an executable
+   Install cx_Freeze Package on your machine using the command -
+      pip install cx_Freeze
+   
+   Locate the file setup.py from the repository, make changes in the file path and run the following command on the command prompt -
+      build setup.py
    
    and then you are good to go.
    
